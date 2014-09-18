@@ -48,4 +48,8 @@ public interface QueryStatistics extends Serializable {
 	long getExecutionMaxTime();
 
 	long getExecutionMinTime();
+
+    long getExecutionTotalTime();
+
+    double getExecutionAvgTimeDouble();
 }
